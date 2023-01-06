@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\UnitTestMementoDesignPattern\\UnitTestMementoDesignPattern.csproj": {}
+  },
+  "projects": {
+    "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\MementoDesignPattern_SalesProspect\\MementoDesignPattern_SalesProspect.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\MementoDesignPattern_SalesProspect\\MementoDesignPattern_SalesProspect.csproj",
+        "projectName": "MementoDesignPattern_SalesProspect",
+        "projectPath": "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\MementoDesignPattern_SalesProspect\\MementoDesignPattern_SalesProspect.csproj",
+        "packagesPath": "C:\\Users\\sarao\\.nuget\\packages\\",
+        "outputPath": "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\MementoDesignPattern_SalesProspect\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sarao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\UnitTestMementoDesignPattern\\UnitTestMementoDesignPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\UnitTestMementoDesignPattern\\UnitTestMementoDesignPattern.csproj",
+        "projectName": "UnitTestMementoDesignPattern",
+        "projectPath": "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\UnitTestMementoDesignPattern\\UnitTestMementoDesignPattern.csproj",
+        "packagesPath": "C:\\Users\\sarao\\.nuget\\packages\\",
+        "outputPath": "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\UnitTestMementoDesignPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sarao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\MementoDesignPattern_SalesProspect\\MementoDesignPattern_SalesProspect.csproj": {
+                "projectPath": "E:\\Gang Of  X\\Design Pattern\\Memento\\MementoDesignPattern\\MementoDesignPattern_SalesProspect\\MementoDesignPattern_SalesProspect.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
